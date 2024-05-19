@@ -44,7 +44,7 @@ export default function Header(params) {
 
   return (
     <>
-      <header className="fixed inset-x-0 max-w-7xl mx-auto lg:p-0 p-6">
+      <header className="lg:p-0 p-6">
         <nav className="flex items-center justify-between gap-6">
           <Link
             href="/"
@@ -104,7 +104,6 @@ export default function Header(params) {
           </Menu>
         </nav>
 
-        {/* Module Dialog */}
         <Transition appear show={isModuleDialogOpen}>
           <Dialog
             as="div"
@@ -163,7 +162,6 @@ export default function Header(params) {
           </Dialog>
         </Transition>
 
-        {/* Link Dialog */}
         <Transition appear show={isLinkDialogOpen}>
           <Dialog as="div" className="relative z-10" onClose={closeLinkDialog}>
             <div
