@@ -72,7 +72,7 @@ export default function Header(params) {
             >
               <MenuItems
                 anchor="bottom end"
-                className="w-72 origin-top-right rounded-xl shadow ring-1 ring-neutral-300 py-3 my-2 text-sm focus:outline-none"
+                className="w-72 origin-top-right rounded-xl shadow ring-1 ring-neutral-300 py-3 my-2 text-sm focus:outline-none bg-gray-100"
               >
                 <MenuItem>
                   <button
