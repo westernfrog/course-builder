@@ -44,7 +44,7 @@ export default function Header(params) {
 
   return (
     <>
-      <header className="lg:p-0 p-6">
+      <header className="">
         <nav className="flex items-center justify-between gap-6">
           <Link
             href="/"
